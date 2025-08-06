@@ -74,3 +74,88 @@ h1 {
     font-weight: bold;
     margin-bottom: 20px;
 }
+
+.b_shadow {
+    box-shadow: 4px 6px 8px red;
+    width: 250px;
+}
+
+.b_shadow {
+    box-shadow: 4px 6px 8px black;
+    width: 350px;
+}
+
+.t_color {
+    color: rgb(174, 14, 14);
+}
+
+.t_size {
+    font-size: 40px;
+}
+
+.t_bg {
+    background-color: aqua;
+}
+
+.f_family1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.f_family2 {
+    font-family: sans-serif;
+}
+
+.f_family3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.f_family4 {
+    font-family: monospace;
+}
+
+.f_family5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.f_family6 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.f_family7 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.f_family8 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.border_img1 {
+    border: 10px solid red;
+    border-radius: 10px 50px 10px 50px;
+    box-shadow: 4px 6px 8px rgb(10, 9, 11);
+    width: 250px;
+    border-color: red rgb(2, 2, 5) red rgb(9, 9, 14);
+}
+
+.border_img2 {
+    border: 30px dotted green;
+    border-radius: 10px 50px 10px 50px;
+    box-shadow: 4px 6px 8px rgb(10, 9, 11);
+    width: 250px;
+    border-color: rgb(21, 20, 20) rgb(2, 2, 5) rgb(13, 12, 12) rgb(9, 9, 14);
+}
+
+.border_img3 {
+    border: 20px dashed black;
+    border-radius: 10px 50px 10px 50px;
+    box-shadow: 4px 6px 8px rgb(10, 9, 11);
+    width: 250px;
+    border-color: red rgb(2, 2, 5) red rgb(9, 9, 14);
+}
+
+.border_img4 {
+    border: 10px outset blue;
+    border-radius: 10px 50px 10px 50px;
+    box-shadow: 4px 6px 8px rgb(10, 9, 11);
+    width: 250px;
+}
