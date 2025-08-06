@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 40px;
+}
+
+
+/* Text Indent */
+
+.text-indent {
+    text-indent: 50px;
+    margin-bottom: 20px;
+}
+
+
+/* Line Height */
+
+.line-height {
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+
+/* Text Decoration */
+
+.text-decor {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+
+/* Uppercase */
+
+.text-upper {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+/* Lowercase */
+
+.text-lower {
+    text-transform: lowercase;
+    margin-bottom: 20px;
+}
+
+
+/* Letter Spacing */
+
+.letter-space {
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+
+/* Word Spacing */
+
+.word-space {
+    word-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* Text Shadow */
+
+.text-shadow {
+    text-shadow: 3px 4px 5px gray;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
