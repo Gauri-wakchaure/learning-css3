@@ -206,19 +206,20 @@ h1 {
 
 .radial {
     height: 600px;
-    background: radial-gradient(circle, red, green, blue);
+    background: radial-gradient(circle, orange, white, green);
 }
 
 .heading2 {
     font-size: 100px;
     .text-align: center;
-    padding: 50px 20px 50px 20px;
+    padding: 250px 20px 50px 20px;
     color: black;
+    margin: 100px 50px 100px 50px;
 }
 
 .conic {
     height: 600px;
-    background: conic-gradient( red, green, blue);
+    background: conic-gradient( rgb(110, 3, 69), rgb(56, 2, 47), rgb(42, 2, 27));
 }
 
 .heading3 {
@@ -228,18 +229,44 @@ h1 {
     color: black;
 }
 
-.body {
+.banner {
     background-image: url("images/nature.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    font-size: 20px;
 }
 
-.bg_img {
-    background-color: azure;
-}
-
-.heading_name {
+.title {
+    font-size: 100px;
     text-align: center;
-    color: blue;
+    color: black;
+    padding: 50px 20px 50px 20px;
+    margin: 10px 50px 400px 50px;
+}
+
+.banner1 {
+    background-image: url("images/bird.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: first baseline;
+    justify-content: left;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+}
+
+.description {
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    padding: 50px 20px 50px 20px;
+    margin: 10px 700px 400px 10px;
 }
