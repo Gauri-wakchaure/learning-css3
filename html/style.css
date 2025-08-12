@@ -374,6 +374,15 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.flex-container img {
+    height: 400px;
+    width: 400px;
+    border-radius: 1px;
+    border: 2px solid red;
 }
 
 .h1 {
