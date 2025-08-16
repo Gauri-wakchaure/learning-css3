@@ -654,3 +654,9 @@
                                     left: 180px;
                                     z-index: 4;
                                 }
+
+                                .Yellow {
+                                    background-color: rgb(231, 231, 27);
+                                    left: 260px;
+                                    z-index: 6;
+                                }
